@@ -1,0 +1,29 @@
+.header{
+    background: var(--gray-800);
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header img{
+    height: 2rem;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+
+
+/*Animações Keyframes*/
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
